@@ -12,11 +12,11 @@ extension SMC {
     
     // MARK: - Fans
     public struct Fan {
-        let identifier: Int
-        let currentRPM: Int?
-        let minimumRPM: Int?
-        let maximumRPM: Int?
-        let targetRPM: Int?
+        public let identifier: Int
+        public let currentRPM: Int?
+        public let minimumRPM: Int?
+        public let maximumRPM: Int?
+        public let targetRPM: Int?
     }
     
     public func fans() -> [Fan] {
