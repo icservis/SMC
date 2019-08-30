@@ -10,9 +10,9 @@ import Foundation
 
 public struct Temperature {
     
-    let celsius: Double
-    let fahrenheit: Double
-    let kelvin: Double
+    public let celsius: Double
+    public let fahrenheit: Double
+    public let kelvin: Double
     
     public static func fahrenheit(celsius: Double) -> Double {
         return (celsius * 1.8) + 32.0
